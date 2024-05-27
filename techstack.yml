@@ -1,0 +1,1076 @@
+repo_name: ahnsv/react-apollo
+report_id: 4550cda4dc1e920a4fbff592c7d63acf
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-27T04:23:59+00:00'
+requested_by: renovate-bot
+provider: github
+branch: master
+detected_tools_count: 73
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ahnsv/react-apollo
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ahnsv/react-apollo
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/client/package.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2019-07-02 11:19:10.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/server/package.json
+  detection_source: examples/hooks/server/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-17 16:16:47.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/client/package.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-24 19:17:49.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/base/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 00:18:15.000000000 Z
+- name: reactstrap
+  description: Easy to use React Bootstrap 4 components compatible with React
+  website_url: https://reactstrap.github.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8935/0Xm63ShM_400x400__1_.jpg
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/client/package.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-07 12:18:35.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/components/package.json
+  detection_source: examples/components/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 00:28:25.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-06-22 13:23:03.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: hwillson
+  last_updated_on: 2019-06-12 18:29:14.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ahnsv/react-apollo
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-24 19:17:49.000000000 Z
+- name: Nightwatchjs
+  description: Automated testing and continous integration framework based on node.js
+    and selenium webdriver
+  website_url: http://nightwatchjs.org/
+  version: 0.9.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/4125/Ihf7jKaE.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-24 01:39:52.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/server/package.json
+  detection_source: examples/hooks/server/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-06-22 10:04:54.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/packages/hoc/package.json
+  detection_source: packages/hoc/package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-04-14 15:03:45.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 11:21:36.000000000 Z
+- name: Apollo
+  description: GraphQL server for Express, Connect, Hapi, Koa and more
+  website_url: https://www.apollographql.com/
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/5508/CyUH653y.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/server/package.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-06-28 22:36:38.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 3.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 09:25:24.000000000 Z
+- name: Recompose
+  description: A React utility belt
+  website_url: https://github.com/acdlite/recompose
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/7756/no-img-open-source.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Ben Newman
+  last_updated_on: 2019-06-14 20:38:29.000000000 Z
+- name: apollo-server
+  description: Production ready GraphQL Server
+  package_url: https://www.npmjs.com/apollo-server
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18230/default_2c3976088fc45d7746e80d08ccf312c0cbcccba7.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/server/package.json
+  detection_source: examples/hooks/server/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-17 16:16:47.000000000 Z
+  vulnerabilities:
+  - name: Cross-site Scripting Vulnerability in GraphQL Playground (distributed by
+      Apollo Server)
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-qm7x-rc44-rrqw
+    detected_date: Jan 18
+    severity: high
+    first_patched: 2.25.3
+  - name: The graphql-upload library included in Apollo Server 2 is vulnerable to
+      CSRF mutations
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-2p3c-p3qw-69r4
+    detected_date: Oct 13
+    severity: moderate
+    first_patched: 2.25.4
+  - name: Introspection in schema validation in Apollo Server
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-w42g-7vfc-xf37
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.14.2
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/server/package.json
+  detection_source: examples/hooks/server/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-17 16:16:47.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 1.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 14:25:56.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+  - name: The `size` option isn't honored after following a redirect in node-fetch
+    cve_id: CVE-2020-15168
+    cve_url: https://github.com/advisories/GHSA-w7rc-rwvf-8q5r
+    detected_date: Aug 22
+    severity: low
+    first_patched: 2.6.1
+- name: apollo-server-express
+  description: Production-ready Node.js GraphQL server for Express and Connect
+  package_url: https://www.npmjs.com/apollo-server-express
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17501/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/server/package.json
+  detection_source: examples/hooks/server/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-17 16:16:47.000000000 Z
+  vulnerabilities:
+  - name: Introspection in schema validation in Apollo Server
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-w42g-7vfc-xf37
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.14.2
+- name: chromedriver
+  description: ChromeDriver for Selenium
+  package_url: https://www.npmjs.com/chromedriver
+  version: 73.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16334/default_c64b9481f9c6af91ec9ae0d9b64505998ac31ee7.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-06-29 11:20:57.000000000 Z
+  vulnerabilities:
+  - name: chromedriver Command Injection vulnerability
+    cve_id: CVE-2023-26156
+    cve_url: https://github.com/advisories/GHSA-hm92-vgmw-qfmx
+    detected_date: Nov 10
+    severity: moderate
+    first_patched: 119.0.1
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-20 07:19:27.000000000 Z
+- name: "@babel/plugin-transform-modules-commonjs"
+  description: This plugin transforms ES2015 modules to CommonJS
+  package_url: https://www.npmjs.com/@babel/plugin-transform-modules-commonjs
+  version: 7.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16321/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-20 07:19:27.000000000 Z
+- name: "@babel/plugin-transform-modules-umd"
+  description: This plugin transforms ES2015 modules to UMD
+  package_url: https://www.npmjs.com/@babel/plugin-transform-modules-umd
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18406/default_a83af5f4e203fcbef5806d8e220f31a42a9e6620.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-20 07:19:27.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-06-22 13:23:03.000000000 Z
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 10:20:11.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 8.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/components/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-14 09:18:20.000000000 Z
+- name: "@types/graphql"
+  description: TypeScript definitions for graphql
+  package_url: https://www.npmjs.com/@types/graphql
+  version: 14.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16543/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 10:19:46.000000000 Z
+- name: "@types/invariant"
+  description: TypeScript definitions for invariant
+  package_url: https://www.npmjs.com/@types/invariant
+  version: 2.2.30
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18531/default_527de719645aea152544f7e9938c09af6a3e3329.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-06 07:21:56.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 10:19:46.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 12.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 10:19:46.000000000 Z
+- name: "@types/prop-types"
+  description: TypeScript definitions for prop-types
+  package_url: https://www.npmjs.com/@types/prop-types
+  version: 15.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16673/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/typescript/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 10:19:46.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.8.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 10:19:46.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 10:19:46.000000000 Z
+- name: "@types/react-test-renderer"
+  description: TypeScript definitions for react-test-renderer
+  package_url: https://www.npmjs.com/@types/react-test-renderer
+  version: 16.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16593/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/typescript/package.json
+  detection_source: examples/typescript/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 10:19:46.000000000 Z
+- name: apollo-boost
+  description: The easiest way to get started with Apollo Client
+  package_url: https://www.npmjs.com/apollo-boost
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17935/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/base/package.json
+  detection_source: examples/base/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 00:18:15.000000000 Z
+- name: apollo-cache-inmemory
+  description: Core abstract of Caching layer for Apollo Client
+  package_url: https://www.npmjs.com/apollo-cache-inmemory
+  version: 1.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16956/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-06-28 22:36:38.000000000 Z
+- name: apollo-client
+  description: A simple yet functional GraphQL client
+  package_url: https://www.npmjs.com/apollo-client
+  version: 2.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16731/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-06-28 22:36:38.000000000 Z
+- name: apollo-link
+  description: Flexible, lightweight transport layer for GraphQL
+  package_url: https://www.npmjs.com/apollo-link
+  version: 1.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17085/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-06-25 20:15:47.000000000 Z
+- name: apollo-link-http
+  description: HTTP transport layer for GraphQL
+  package_url: https://www.npmjs.com/apollo-link-http
+  version: 1.5.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17167/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-06-28 22:36:38.000000000 Z
+- name: apollo-utilities
+  description: Utilities for working with GraphQL ASTs
+  package_url: https://www.npmjs.com/apollo-utilities
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18734/default_694c15b8322bafbc7e0c7ff013cac29527ff6344.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Ben Newman
+  last_updated_on: 2019-06-06 14:55:12.000000000 Z
+- name: assert
+  description: The assert module from Node.js, for the browser
+  package_url: https://www.npmjs.com/assert
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16188/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 10:20:11.000000000 Z
+- name: babel-preset-react
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/babel-preset-react
+  version: 6.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15825/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 14:25:56.000000000 Z
+- name: babel-runtime
+  description: Babel selfContained runtime
+  package_url: https://www.npmjs.com/babel-runtime
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15861/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 10:20:11.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 10:20:11.000000000 Z
+- name: bundlesize
+  description: Keep your library size in check
+  package_url: https://www.npmjs.com/bundlesize
+  version: 0.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17230/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-06-29 12:36:05.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-24 01:39:52.000000000 Z
+- name: graphql-tag
+  description: A JavaScript template literal tag that parses GraphQL queries
+  package_url: https://www.npmjs.com/graphql-tag
+  version: 2.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16631/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/components/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 00:28:25.000000000 Z
+- name: graphql-tools
+  description: Useful tools to create and manipulate GraphQL schemas
+  package_url: https://www.npmjs.com/graphql-tools
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16697/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 10:20:11.000000000 Z
+- name: hoist-non-react-statics
+  description: Copies non-react specific statics from a child component to a parent
+    component
+  package_url: https://www.npmjs.com/hoist-non-react-statics
+  version: 3.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: packages/hoc/package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-06-28 15:15:38.000000000 Z
+- name: jest-junit
+  description: A jest reporter that generates junit xml files
+  package_url: https://www.npmjs.com/jest-junit
+  version: 6.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2019-07-02 11:19:10.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: packages/components/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-06 07:21:56.000000000 Z
+- name: react-apollo
+  description: React Apollo Hooks, Components, and HOC
+  package_url: https://www.npmjs.com/react-apollo
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17111/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-06 07:21:56.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/base/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 00:18:15.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 2.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/base/package.json
+  detection_source: examples/base/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-25 00:18:15.000000000 Z
+- name: react-scripts-ts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts-ts
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17062/default_32da0e64c9ec90f8f302a76668f802f1f4d08177.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/typescript/package.json
+  detection_source: examples/typescript/package.json
+  last_updated_by: Yaroslav Gribov
+  last_updated_on: 2019-07-17 18:53:29.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 16.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/typescript/package.json
+  detection_source: examples/typescript/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-07 12:18:35.000000000 Z
+- name: rollup-plugin-babel
+  description: Seamless integration between Rollup and Babel
+  package_url: https://www.npmjs.com/rollup-plugin-babel
+  version: 4.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15877/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 11:21:36.000000000 Z
+- name: rollup-plugin-commonjs
+  description: Convert CommonJS modules to ES2015
+  package_url: https://www.npmjs.com/rollup-plugin-commonjs
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15873/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 11:21:36.000000000 Z
+- name: rollup-plugin-node-resolve
+  description: Bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/rollup-plugin-node-resolve
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 11:21:36.000000000 Z
+- name: rollup-plugin-replace
+  description: "[![]"
+  package_url: https://www.npmjs.com/rollup-plugin-replace
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16077/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 11:21:36.000000000 Z
+- name: rollup-plugin-terser
+  description: Rollup plugin to minify generated es bundle
+  package_url: https://www.npmjs.com/rollup-plugin-terser
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 11:21:36.000000000 Z
+- name: rollup-plugin-typescript2
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript2
+  version: 0.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16076/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-21 11:21:36.000000000 Z
+- name: selenium-webdriver
+  description: The official WebDriver JavaScript bindings from the Selenium project
+  package_url: https://www.npmjs.com/selenium-webdriver
+  version: 4.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16708/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/ssr/hoc/package.json
+  detection_source: examples/ssr/hoc/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-06-29 11:20:57.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-14 15:14:37.000000000 Z
+- name: source-map-explorer
+  description: Analyze and debug space usage through source maps
+  package_url: https://www.npmjs.com/source-map-explorer
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17561/default_99afdc7126f8a31ae778ef58d50c93ae3dd88880.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-24 01:39:52.000000000 Z
+- name: subscriptions-transport-ws
+  description: A websocket transport for GraphQL subscriptions
+  package_url: https://www.npmjs.com/subscriptions-transport-ws
+  version: 0.9.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17948/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/hooks/client/package.json
+  detection_source: examples/hooks/client/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2019-07-14 16:17:46.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 24.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hugh Willson
+  last_updated_on: 2019-06-28 22:36:38.000000000 Z
+- name: tsc-watch
+  description: The TypeScript compiler with onSuccess command
+  package_url: https://www.npmjs.com/tsc-watch
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18024/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Newman
+  last_updated_on: 2019-06-14 20:38:29.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 1.10.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/ahnsv/react-apollo/blob/master/examples/rollup/package-lock.json
+  detection_source: examples/rollup/package.json
+  last_updated_by: hwillson
+  last_updated_on: 2019-05-24 01:39:52.000000000 Z
